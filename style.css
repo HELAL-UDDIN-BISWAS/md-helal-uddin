@@ -1,0 +1,16 @@
+.butto{
+     color: red; 
+}
+img{
+     height: 200px;
+     width: 200px;
+}
+.class{
+     text-align: center;
+     height: 400px;
+     background:url('New folder/3.png');
+     width: 300px;
+     border-radius: 2px 10px 20px ;
+     box-shadow: 10px 20px 10px black;
+     border: 5px solid red;
+}
