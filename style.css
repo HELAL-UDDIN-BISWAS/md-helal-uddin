@@ -5,6 +5,9 @@ img{
      height: 200px;
      width: 200px;
 }
+input{
+     display: block;
+}
 .class{
      text-align: center;
      height: 400px;
