@@ -1,19 +1,61 @@
+*{
+     margin: 0;
+     padding: 0;
+}
 .butto{
      color: red; 
 }
+
 img{
      height: 200px;
      width: 200px;
 }
-input{
-     display: block;
+.container{
+     padding: 0px 30px;
+     background-color: rgb(120, 101, 101);
+     display: flex;
+     height: 80px;
+     align-items: center;
+     justify-content: space-between;
+}
+ul{
+     display: flex;
+     list-style: none;
+}
+li{
+     margin-right: 15px;
+}
+li:hover{
+     color: brown;
+     cursor: pointer;
+}
+.navimg{
+     width: 40px;
+     height: 40px;
 }
 .class{
      text-align: center;
      height: 400px;
-     background:url('New folder/3.png');
+
      width: 300px;
      border-radius: 2px 10px 20px ;
      box-shadow: 10px 20px 10px black;
      border: 5px solid red;
+}
+.mt{
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     text-align: center;
+     min-width: 90%;
+     background-repeat: no-repeat;
+     height: 100vh;
+     background-image: url('./New folder/pxfuel\ \(1\).jpg');
+     background-size: 100%;
+}
+.pani{
+     border-radius: 15px;
+     background-color: rgba(255, 125, 200, 0.2);
+     height: 400px;
+     width: 350px;
 }
